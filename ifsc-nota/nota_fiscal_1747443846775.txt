@@ -1,0 +1,23 @@
+                      TEM SUPERMERCADO                      
+    CNPJ: 31.584.005/0001-32 PRA VOCE SUPERMERCADO LTDA     
+       Av Manoel Gonçalves da Luz 469 BONGI RECIFE-PE       
+                     Tel: (81)3097-0863                     
+ Documento Auxiliar da Nota Fiscal de Consumidor Eletrônica 
+------------------------------------------------------------
+                  EMITIDA EM CONTINGÊNCIA                   
+                  Pendente de Autorização                   
+------------------------------------------------------------
+#   Código   Descrição   Qtde   Un  Valor unit.  Valor total
+------------------------------------------------------------
+001 001001 Arroz Tipo 1 5kg            2,00 UN X 22,90 45,80
+002 001001 Arroz Tipo 1 5kg            2,00 UN X 22,90 45,80
+003 001002 Feijão Carioca 1kg          4,00 UN X  7,50 30,00
+004 001002 Feijão Carioca 1kg          4,00 UN X  7,50 30,00
+------------------------------------------------------------
+Qtde Total de Itens                                      004
+Valor Total R$                                        151,60
+FORMA DE PAGAMENTO                                Valor Pago
+DINHEIRO                                              100,00
+CREDITO                                                70,00
+Troco R$                                               18,40
+------------------------------------------------------------
