@@ -1,52 +1,28 @@
 package Simulado;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Exame {
-    public enum Material{FEZES, URINA, SANGUE}
-    private String codigo;
-    private String nome;
-    private Material material;
-    private Date dataColeta;
-    private Date previsaoResultado;
+    private TipoExame tipoExame;
+    private LocalDate dataColeta;
 
-    public String getCodigo() {
-        return codigo;
+    public TipoExame getTipoExame() {
+        return tipoExame;
     }
 
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
+    public void setTipoExame(TipoExame tipoExame) {
+        this.tipoExame = tipoExame;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public Material getMaterial() {
-        return material;
-    }
-
-    public void setMaterial(Material material) {
-        this.material = material;
-    }
-
-    public Date getDataColeta() {
+    public LocalDate getDataColeta() {
         return dataColeta;
     }
 
-    public void setDataColeta(Date dataColeta) {
+    public void setDataColeta(LocalDate dataColeta) {
         this.dataColeta = dataColeta;
     }
 
-    public Date getPrevisaoResultado() {
-        return previsaoResultado;
-    }
-
-    public void setPrevisaoResultado(Date previsaoResultado) {
-        this.previsaoResultado = previsaoResultado;
+    public LocalDate calculaPrevisaoResultado(){
+        return dataColeta.plusDays(tipoExame.getDiasResultado());
     }
 }
